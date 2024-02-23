@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "tailwindcss -i routerflow_crm/static/tw/tailwind-input.css -o routerflow_crm/static/css/routerflow_crm.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  }
+}

@@ -2,8 +2,8 @@
 """Base settings to build other settings files upon."""
 
 from pathlib import Path
-import environ
 
+import environ
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # routerflow_crm/
@@ -90,6 +90,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "routerflow_crm.users",
+    "routerflow_crm.core",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -195,6 +196,7 @@ TEMPLATES = [
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
                 "routerflow_crm.users.context_processors.allauth_settings",
+                "core.context_processors.site_urls",
             ],
         },
     },

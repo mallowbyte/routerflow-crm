@@ -1,10 +1,9 @@
 # ruff: noqa: E501
-from .base import *  # noqa
+from .base import *  # noqa: F403
+from .base import BASE_DIR
 from .base import INSTALLED_APPS
 from .base import MIDDLEWARE
 from .base import env
-from .base import BASE_DIR
-
 
 # GENERAL
 # ------------------------------------------------------------------------------
@@ -67,5 +66,5 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
+    },
 }
