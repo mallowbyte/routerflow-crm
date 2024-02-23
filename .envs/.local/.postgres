@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=routerflow_crm
+POSTGRES_USER=uCBCNlykWorIpdMWoBqwYmoIMlBTLXzk
+POSTGRES_PASSWORD=kVkQyJAdXhjLetB6Lysg8NaDRZ4b0rU4mOAVIB5c23ZkJ0iF4kLd8RHx9l6oTpCb
